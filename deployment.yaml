@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: reverse-words
-        image: quay.io/mavazque/tekton-reversewords:latest
+        image: image-registry.openshift-image-registry.svc:5000/reversewords-ci/reversewords:latest
         ports:
         - containerPort: 8080
           name: http
