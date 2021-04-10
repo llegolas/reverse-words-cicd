@@ -30,6 +30,7 @@ spec:
     description: Branch where the deployment file for stage is located
   - name: stageAppUrl
     type: string
+    default: reversewords-dev.apps.am-week-test.okd.endava-test-domain.be
     description: URL where the staging app is published
   tasks:
 

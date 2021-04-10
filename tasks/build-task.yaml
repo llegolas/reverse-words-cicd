@@ -30,8 +30,6 @@ spec:
     volumeMounts:
     - name: varlibcontainers
       mountPath: /var/lib/containers
-    securityContext:
-      privileged: true
 
   - name: push
     image: quay.io/buildah/stable
@@ -39,8 +37,6 @@ spec:
     volumeMounts:
     - name: varlibcontainers
       mountPath: /var/lib/containers
-    securityContext:
-      privileged: true
 
   volumes:
   - name: varlibcontainers
