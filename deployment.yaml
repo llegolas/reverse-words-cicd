@@ -12,5 +12,5 @@ spec:
         - name: RELEASE
           value: Production release
         - $patch: replace
-        image: image-registry.openshift-image-registry.svc:5000/reversewords-ci/reversewords:00e7a13ab1740e3ecd2c67c76bbed2a1eb978948
+        image: image-registry.openshift-image-registry.svc:5000/reversewords-ci/reversewords:latest
         name: reverse-words
