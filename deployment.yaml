@@ -12,5 +12,5 @@ spec:
         - name: RELEASE
           value: Stage Release
         - $patch: replace
-        image: image-registry.openshift-image-registry.svc:5000/reversewords-ci/reversewords:5bb697345323be0f3a5da5ed56e9d9771a87e9b6
+        image: image-registry.openshift-image-registry.svc:5000/reversewords-ci/reversewords:latest
         name: reverse-words
